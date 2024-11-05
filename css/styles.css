@@ -1,0 +1,176 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+/* h2 styles */
+.solutions__title,
+.team__title,
+.portfolio__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+
+}
+
+/* h3 styles */
+.subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+/* p styles */
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+/* #region Header */
+
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    color: #4d5ae5;
+
+}
+
+.logo--dark {
+    color: #2e2f42;
+}
+
+
+.nav__link {
+    color: #2e2f42;
+    font-weight: 500;
+    letter-spacing: 0.02em
+}
+
+.address {
+    font-style: normal;
+}
+
+.address__link {
+    color: #434455;
+    letter-spacing: 0.02em
+}
+
+.nav__link:hover,
+.address__link:hover {
+    color: #404bbf;
+}
+
+.nav__link:focus,
+.address__link:focus {
+    color: #404bbf;
+}
+
+/* #endregion */
+
+
+/* #region Hero */
+.hero {
+    background-color: #2e2f42;
+
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
+
+}
+
+.hero .btn {
+    background-color: #4d5ae5;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+
+.hero .btn:hover,
+.hero .btn:focus {
+    background-color: #404bbf;
+}
+
+/* #endregion */
+
+
+/* #region Solutions */
+
+
+/* #endregion */
+
+
+/* #region Our Team */
+.team {
+    background-color: #f4f4fd;
+}
+
+
+.team__card {
+    background-color: #fff;
+}
+
+
+/* #endregion */
+
+
+/* #region Our Portfolio */
+
+
+
+/* #endregion */
+
+/* #region Footer */
+.footer {
+
+    background-color: #2e2f42;
+
+}
+
+.footer .description {
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+
+}
+
+.logo--white {
+    color: #f4f4fd;
+}
+
+/* #endregion */
