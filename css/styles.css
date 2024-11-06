@@ -101,12 +101,12 @@ ul {
 .nav {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 
 .nav__list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .nav__link {
@@ -117,17 +117,17 @@ ul {
 
 .address {
     font-style: normal;
-    padding: 24px 0;
 }
 
 .address__list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address__link {
     color: #434455;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .nav__link:hover,
