@@ -72,9 +72,12 @@ ul {
 
 /* #region Header */
 .header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .nav .logo {
