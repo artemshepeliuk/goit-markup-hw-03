@@ -32,9 +32,9 @@ img {
 
 
 /* h2 styles */
-.solutions__title,
-.team__title,
-.portfolio__title {
+.solutions-title,
+.team-title,
+.portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -52,6 +52,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 /* p styles */
@@ -60,6 +61,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+/* p max-width */
+.description-limited {
+    max-width: 264px;
 }
 
 a {
@@ -80,7 +86,7 @@ ul {
     justify-content: space-between;
 }
 
-.nav .logo {
+.header-logo {
     margin-right: 76px;
 }
 
@@ -94,7 +100,7 @@ ul {
     color: #4d5ae5;
 }
 
-.logo--dark {
+.logo-dark {
     color: #2e2f42;
 }
 
@@ -103,40 +109,39 @@ ul {
     align-items: center;
 }
 
-.nav__list {
+.nav-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
-.nav__link {
+.nav-link {
     color: #2e2f42;
     font-weight: 500;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .address {
     font-style: normal;
 }
 
-.address__list {
+.address-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
-.address__link {
+.address-link {
     color: #434455;
     letter-spacing: 0.02em;
 }
 
-.nav__link:hover,
-.address__link:hover {
+.nav-link:hover,
+.address-link:hover {
     color: #404bbf;
 }
 
-.nav__link:focus,
-.address__link:focus {
+.nav-link:focus,
+.address-link:focus {
     color: #404bbf;
 }
 /* #endregion */
@@ -151,7 +156,7 @@ ul {
     padding: 188px 0;
 }
 
-.hero__title {
+.hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -185,20 +190,13 @@ ul {
 
 
 /* #region Solutions */
-    .solutions__list {
+    .solutions-list {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 24px;
     }
-
-    .solutions__item {
-        max-width: 264px;
-    }
-
-    .solutions__item .subtitle {
-        margin-bottom: 8px;
-    }
+    
 /* #endregion */
 
 
@@ -207,13 +205,13 @@ ul {
     background-color: #f4f4fd;
 }
 
-.team__cards {
+.team-cards {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.team__card {
+.team-card {
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -225,33 +223,28 @@ ul {
 
 
 /* #region Our Portfolio */
-.portfolio__cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px 24px;
-}
-
-.portfolio__card {
-
-}
+    .portfolio-cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 48px 24px;
+    }
 /* #endregion */
 
 
 /* #region Footer */
 .footer {
     background-color: #2e2f42;
-    padding: 100px 156px;
+    padding: 100px 0;
 }
 
-.footer .description {
+.light {
     color: #f4f4fd;
-    letter-spacing: 0.02em;
-    max-width: 264px;
 }
 
-.logo--white {
-    color: #f4f4fd;
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 /* #endregion */
