@@ -23,6 +23,19 @@ img {
     padding: 0 15px;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* section padding */
 .solutions,
 .team,
@@ -32,9 +45,7 @@ img {
 
 
 /* h2 styles */
-.solutions-title,
-.team-title,
-.portfolio-title {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -222,9 +233,16 @@ ul {
 
 .team-card {
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-content {
+    padding: 32px 0;
+}
+
+.text-align {
+    text-align: center;
 }
 
 
