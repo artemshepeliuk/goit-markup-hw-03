@@ -137,6 +137,8 @@ ul {
 
 .address {
     font-style: normal;
+    display: flex;
+    align-items: center;
 }
 
 .address-list {
