@@ -250,12 +250,18 @@ ul {
 
 
 /* #region Our Portfolio */
-    .portfolio-cards {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 48px 24px;
-    }
+.portfolio-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.portfolio-content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 /* #endregion */
 
 
