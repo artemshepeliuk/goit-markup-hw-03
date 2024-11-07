@@ -23,7 +23,7 @@ img {
     padding: 0 15px;
 }
 
-/* .visually-hidden {
+.visually-hidden:not(:focus):not(:active) {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -34,7 +34,7 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-} */
+}
 
 /* section padding */
 .solutions,
@@ -125,11 +125,14 @@ ul {
     gap: 40px;
 }
 
+.header-padding {
+    padding: 24px 0;
+}
+
 .nav-link {
     color: #2e2f42;
     font-weight: 500;
     letter-spacing: 0.02em;
-    padding: 24px 0;
 }
 
 .address {
